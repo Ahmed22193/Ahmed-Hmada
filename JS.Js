@@ -23,3 +23,7 @@ function LINKSS(){
         temp = 'block';
     }
 }
+function LIN(){
+    LINKS.style.display='none';
+    temp = 'block';
+}
