@@ -1,10 +1,11 @@
 let arrow = document.getElementById('arrow');
 // عندما ينزل المستخدم بالصفحة 300 بكسل من أعلى الصفحة، أظهر الزر
+arrow.style.display = "none";
 window.onscroll = function() {
     scrollFunction();
 };
 function scrollFunction() {
-    if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+    if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
         arrow.style.display = "block";
     } else {
         arrow.style.display = "none";
