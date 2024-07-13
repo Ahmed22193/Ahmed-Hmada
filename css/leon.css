@@ -351,8 +351,10 @@ body{
     .about .about-content .image img{
         width: calc(330px - 60px);
         height: calc(330px - 70px);
-/*         box-shadow: 0 0 20px 10px #10cab7 ;
- */    }
+        background-color: #10cab7;
+        border-radius: 40%;
+        box-shadow: 0 0 20px 3px #000000 ;
+    }
     .about .about-content .image::after{
         display: none;
     }
@@ -374,9 +376,9 @@ body{
 }
 .about .about-content .image img{
     max-width: 100%;
-    /* border-radius: 50%; */
-    /* background-color: #0f897d; */
-    /* box-shadow: 0 0 20px 3px #10cab7 ; */
+    background-color: #10cab7;
+    border-radius: 40%;
+    box-shadow: 0 0 20px 3px #000000 ;
 }
 .about .about-content .image::before{
     position: absolute;
